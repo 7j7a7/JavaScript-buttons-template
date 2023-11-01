@@ -1,0 +1,55 @@
+﻿/*
+#E1A4D6 - pink
+#86007C -plum
+#FBF4D7 - white
+#4D3A4D -brown
+*/
+body {
+    background-color: #FBF4D7;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    margin-top:0;
+    padding-left:1em;
+}
+
+.container{
+    padding-left:2em;
+    padding-right:2em;
+}
+
+nav {
+    background-color: #4D3A4D;
+    width: 100%;
+    float: left;
+}
+
+.nav-items {
+    color: #FBF4D7;
+    list-style: none;
+    
+}
+
+li {
+    display: inline;
+    padding:5px;
+}
+
+/*li:nth-of-type(4){
+    float:right;
+}*/
+
+button {
+    background-color: #86007C;
+    color: #FBF4D7;
+    border:1px solid grey;
+    width:6em;
+    height:4em;
+    border-radius:15% 40% 100%;
+    margin:1em;
+
+}
+
+
